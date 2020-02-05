@@ -2,16 +2,18 @@ public class Home {
   Dog dog = new Dog();
   Cat cat = new Cat();
 
-  public Cat adoptPet(Cat sound){
+  public Dog adoptPet(Dog sound){
     dog.sound();
-    cat.sound();
 
-    return sound;
+    return dog;
   }
-  public Dog makeAllSounds(Dog sound){
+  public Cat adoptPet(Cat sound){
+    cat.sound();
+    return cat;
+  }
 
+
+  public void makeAllSounds() {
     System.out.println("This prints: ");
-
-    return  sound;
   }
 }

@@ -5,11 +5,8 @@ public class MainProgram {
         Home home = new Home();
         Dog dog = new Dog();
         Cat cat = new Cat();
-//        dog.sound();
-//        dog.eats();
-//        cat.sound();
-//        cat.eats();
-        home.makeAllSounds(dog);
+        home.makeAllSounds();
+        home.adoptPet(dog);
         home.adoptPet(cat);
     }
 }
