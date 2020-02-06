@@ -1,10 +1,10 @@
 public class Cat extends Animal {
 
-    public void sound() {
-        System.out.println("a cat : meows");
-    }
-
-    public void eats() {
-        System.out.println("A cat eats dirty rats");
-    }
+        public String sounds(){
+                String purr ="";
+                setName("Storm");
+                purr = this.getName()+" meow";
+                System.out.println(purr);
+                return purr;
+        }
 }

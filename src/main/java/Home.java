@@ -1,19 +1,21 @@
+import java.util.ArrayList;
 public class Home {
   Dog dog = new Dog();
   Cat cat = new Cat();
-
-  public Dog adoptPet(Dog sound){
-    dog.sound();
-
+ArrayList list = new ArrayList<Object>();
+  public Dog adoptPet(Dog sound)
+  {
+    dog.sounds();
     return dog;
   }
-  public Cat adoptPet(Cat sound){
-    cat.sound();
+  public Cat adoptPet(Cat sound)
+  {
+    cat.sounds();
     return cat;
   }
 
-
-  public void makeAllSounds() {
+  public void makeAllSounds()
+  {
     System.out.println("This prints: ");
   }
 }

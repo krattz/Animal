@@ -1,11 +1,10 @@
 public class Dog extends Animal {
-
-
-        public void sound() {
-            System.out.println("a dog barks: woof woof");
-        }
-
-        public void eats() {
-            System.out.println("A dog eats bloody steaks");
-        }
-    }
+     public String sounds()
+     {
+       String bark = "";
+       setName("Rax");
+       bark = this.getName() + " barks";
+       System.out.println(bark);
+       return bark;
+     }
+}
