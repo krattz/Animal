@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+
+
 public class Home {
   Dog dog = new Dog();
   Cat cat = new Cat();
@@ -16,6 +18,8 @@ ArrayList list = new ArrayList<Object>();
 
   public void makeAllSounds()
   {
-    System.out.println("This prints: ");
+    list.add(dog);
+    list.add(cat);
+
   }
 }
