@@ -8,8 +8,8 @@ public class Animal {
     public void setName(String name) {
         this.name = name;
     }
-    public void eats(){
+    public String eats(){
 
-        System.out.println(this.name + " eats");
-    }
+        System.out.println( " Food");
+    return "Food";}
 }
