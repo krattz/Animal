@@ -3,7 +3,7 @@ public class Dog extends Animal {
      {
        String bark = "";
        setName("Rax");
-       bark = this.getName() + " Barks";
+       bark = this.getName() + " barks";
        System.out.println(bark);
        return bark;
      }
